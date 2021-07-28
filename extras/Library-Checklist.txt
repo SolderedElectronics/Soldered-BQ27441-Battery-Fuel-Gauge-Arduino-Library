@@ -32,21 +32,21 @@
             [![Compile Sketches](https://github.com/e-radionicacom/[repo name]/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/[repo name]/actions/workflows/compile_test.yml)
             [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/[repo name]/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/[repo name]/actions/workflows/make_docs.yml)
     | Also change link to docs to the one provided by GH-pages
-❌ | Fill in keywords.txt with added function names
-❌ | Fill in library.properties with:
+✅ | Fill in keywords.txt with added function names
+✅ | Fill in library.properties with:
     | Library name
     | Describe library with a sentence and a paragraph
     | Change category accordingly
     | Change main .h file to [sensor name]-SOLDERED.h
-❌ | Update Doxyfile with
+✅ | Update Doxyfile with
     | PROJECT_NAME   - to [sensor name]
     | PROJECT_NUMBER - to 1.0.0
     | PROJECT_BRIEF  - same as library.properties paragraph
-❌ | Update @authors to your name in all source files (search and replace in vsc works fine)
-❌ | Push to dev
+✅ | Update @authors to your name in all source files (search and replace in vsc works fine)
+✅ | Push to dev
     | Check if Github Actions made a push to main and if so make a release with version 1.0.0
-❌ | Set GitHub pages settings
+✅ | Set GitHub pages settings
     | Visit https://github.com/e-radionicacom/[repo name]/settings/pages
     | Change to gh-pages branch and /docs folder
-❌ | Check if docs are made correctly
+✅ | Check if docs are made correctly
 ❌ | PR to Arduino Library Manager if not done already
