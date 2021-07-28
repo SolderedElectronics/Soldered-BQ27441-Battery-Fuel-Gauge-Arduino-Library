@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['generic_2deasyc_2dsoldered_2ecpp_8',['Generic-easyC-SOLDERED.cpp',['../_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['generic_2deasyc_2dsoldered_2eh_9',['Generic-easyC-SOLDERED.h',['../_generic-easy_c-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
+  ['defaultaddress_27',['defaultAddress',['../class_easy_c.html#a9052ae674b3553bbb19283278299f395',1,'EasyC']]],
+  ['design_28',['DESIGN',['../_spark_fun_b_q27441_8h.html#ac13050dc6d06b0eb3ef60c25f0b97fb3a058ddfdfb3dd989380a646a626964dff',1,'SparkFunBQ27441.h']]],
+  ['devicetype_29',['deviceType',['../class_b_q27441.html#a78ee1ac4601e0b2da65a209dbd25c091',1,'BQ27441']]],
+  ['dsgflag_30',['dsgFlag',['../class_b_q27441.html#a672ac6e633d41ac8b56d3e92f793f175',1,'BQ27441']]]
 ];
