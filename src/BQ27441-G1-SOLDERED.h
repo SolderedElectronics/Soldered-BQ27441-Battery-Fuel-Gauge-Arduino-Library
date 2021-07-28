@@ -22,9 +22,7 @@ class BQ_27441 : public BQ27441
     BQ_27441();
 
   protected:
-
   private:
-
 };
 
 #endif
