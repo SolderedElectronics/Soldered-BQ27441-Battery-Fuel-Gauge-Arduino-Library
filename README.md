@@ -5,7 +5,7 @@
 
 | ![BQ27441-G1](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [BQ27441-G1](https://www.solde.red/SKU)                                                            |
+| [BQ27441-G1](https://www.solde.red/333065)                                                            |
 
 BQ27441-G1 [easyC ecosystem](https://www.soldered.com/easyC). 
 
