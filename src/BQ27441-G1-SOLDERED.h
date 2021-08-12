@@ -13,7 +13,6 @@
 #define _BQ27441_G1_H
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.h"
 #include "libs/SparkFun_BQ27441_Arduino_Library/src/SparkFunBQ27441.h"
 
 class BQ_27441 : public BQ27441
