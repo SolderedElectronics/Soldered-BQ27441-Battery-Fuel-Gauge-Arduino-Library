@@ -5,10 +5,6 @@ var files_dup =
       [ "BQ_27441", "class_b_q__27441.html", "class_b_q__27441" ]
     ] ],
     [ "BQ27441_Definitions.h", "_b_q27441___definitions_8h.html", null ],
-    [ "easyC.cpp", "easy_c_8cpp.html", null ],
-    [ "easyC.h", "easy_c_8h.html", [
-      [ "EasyC", "class_easy_c.html", "class_easy_c" ]
-    ] ],
     [ "SparkFunBQ27441.cpp", "_spark_fun_b_q27441_8cpp.html", "_spark_fun_b_q27441_8cpp" ],
     [ "SparkFunBQ27441.h", "_spark_fun_b_q27441_8h.html", "_spark_fun_b_q27441_8h" ]
 ];

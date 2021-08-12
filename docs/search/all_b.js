@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['native_55',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
+  ['opconfig_47',['opConfig',['../class_b_q27441.html#a1efa69975da3df64aedbbf6d0460b781',1,'BQ27441']]]
 ];
