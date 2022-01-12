@@ -21,12 +21,13 @@ void setup()
 
     // Use battery.begin() to initialize the BQ27441-G1A and confirm that it's
     // connected and communicating.
-    while (!battery.begin()) // begin() will return true if communication is successful
+    if (!battery.begin()) // begin() will return true if communication is successful
     {
         // If communication fails, print an error message and loop forever.
         Serial.println("Error: Unable to communicate with BQ27441.");
         Serial.println("  Check wiring and try again.");
-        delay(1000);
+        while(1)
+        delay(1);
     }
     Serial.println("Connected to BQ27441!");
 
