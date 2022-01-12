@@ -13,7 +13,7 @@
 #include "BQ27441-G1-SOLDERED.h"
 
 BQ27441 battery;
-const unsigned int BATTERY_CAPACITY = 1200; //Battery that I tested this with had 1200 mAh
+const unsigned int BATTERY_CAPACITY = 1200; //Battery I tested had 1200 mAh
 
 void setup()
 {
@@ -21,13 +21,12 @@ void setup()
 
     // Use battery.begin() to initialize the BQ27441-G1A and confirm that it's
     // connected and communicating.
-    if (!battery.begin()) // begin() will return true if communication is successful
+    while (!battery.begin()) // begin() will return true if communication is successful
     {
         // If communication fails, print an error message and loop forever.
         Serial.println("Error: Unable to communicate with BQ27441.");
         Serial.println("  Check wiring and try again.");
-        while (1)
-            ;
+        delay(1000);
     }
     Serial.println("Connected to BQ27441!");
 
