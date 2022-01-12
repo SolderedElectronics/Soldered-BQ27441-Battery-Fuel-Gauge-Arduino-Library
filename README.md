@@ -15,7 +15,7 @@ BQ27441-G1 [easyC ecosystem](https://www.soldered.com/easyC).
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in NAZIV PROIZVODA hardware repository
+You can find hardware design for this board in BQ27441-G1 board hardware repository
 
 ### Documentation
 
