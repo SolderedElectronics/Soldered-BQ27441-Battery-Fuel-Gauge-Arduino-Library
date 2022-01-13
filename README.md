@@ -19,7 +19,7 @@ You can find hardware design for this board in BQ27441-G1 board hardware reposit
 
 ### Documentation
 
-Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-BQ27441-G1-Arduino-Library/).
+Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-BQ27441-G1-Battery-Fuel-Gauge-Sensor-Arduino-Library/).
 
 - Tutorial for using the BQ27441-G1 board
 - Installing an Arduino library
