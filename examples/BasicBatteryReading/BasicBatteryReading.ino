@@ -3,6 +3,8 @@
  *
  * @file        BasicBatteryReading.ino
  * @brief       This example is to show how BQ27441-G1 can be used for basic battery readings
+ *              It is IMPORTANT to connect battery because this module gets power from battery
+ *              and will not work without it!
  *
  *
  *
