@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bq27441_2dg1_20arduino_20library_0',['BQ27441-G1 Arduino library',['../index.html',1,'']]]
+  ['fuel_20gauge_20bq27441_20breakout_20arduino_20library_0',['Fuel gauge BQ27441 breakout Arduino library',['../index.html',1,'']]]
 ];

@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Soldered BQ27441-G1 Arduino Library", "index.html", [
-    [ "BQ27441-G1 Arduino library", "index.html", null ],
+    [ "Fuel gauge BQ27441 breakout Arduino library", "index.html", null ],
     [ "SparkFun License Information", "md_src_libs__spark_fun__b_q27441__arduino__library__l_i_c_e_n_s_e.html", [
       [ "Hardware", "md_src_libs__spark_fun__b_q27441__arduino__library__l_i_c_e_n_s_e.html#autotoc_md7", null ],
       [ "Code", "md_src_libs__spark_fun__b_q27441__arduino__library__l_i_c_e_n_s_e.html#autotoc_md8", null ]
