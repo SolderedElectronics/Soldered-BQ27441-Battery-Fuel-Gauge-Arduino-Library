@@ -26,9 +26,8 @@ var searchData=
   ['soh_23',['soh',['../class_b_q27441.html#a2b4e025eb6fdf6e0274ab5f66a2233ad',1,'BQ27441']]],
   ['soh_5fmeasure_24',['soh_measure',['../_spark_fun_b_q27441_8h.html#aa25a8d7c0af5a99de0032a23951eb8ef',1,'SparkFunBQ27441.h']]],
   ['soh_5fstat_25',['SOH_STAT',['../_spark_fun_b_q27441_8h.html#aa25a8d7c0af5a99de0032a23951eb8efa500cbd627d6c1197e4840aebc709786b',1,'SparkFunBQ27441.h']]],
-  ['sparkfun_20license_20information_26',['SparkFun License Information',['../md_src_libs__spark_fun__b_q27441__arduino__library__l_i_c_e_n_s_e.html',1,'']]],
-  ['sparkfunbq27441_2ecpp_27',['SparkFunBQ27441.cpp',['../_spark_fun_b_q27441_8cpp.html',1,'']]],
-  ['sparkfunbq27441_2eh_28',['SparkFunBQ27441.h',['../_spark_fun_b_q27441_8h.html',1,'']]],
-  ['status_29',['status',['../class_b_q27441.html#ac29258922b18a4a0b4df43cb3d0f9ea8',1,'BQ27441']]],
-  ['stby_30',['STBY',['../_spark_fun_b_q27441_8h.html#a4a3045c4f8fa36493b2bdd5515583c33afa030687230b171d0c8e5d2d01b53125',1,'SparkFunBQ27441.h']]]
+  ['sparkfunbq27441_2ecpp_26',['SparkFunBQ27441.cpp',['../_spark_fun_b_q27441_8cpp.html',1,'']]],
+  ['sparkfunbq27441_2eh_27',['SparkFunBQ27441.h',['../_spark_fun_b_q27441_8h.html',1,'']]],
+  ['status_28',['status',['../class_b_q27441.html#ac29258922b18a4a0b4df43cb3d0f9ea8',1,'BQ27441']]],
+  ['stby_29',['STBY',['../_spark_fun_b_q27441_8h.html#a4a3045c4f8fa36493b2bdd5515583c33afa030687230b171d0c8e5d2d01b53125',1,'SparkFunBQ27441.h']]]
 ];
