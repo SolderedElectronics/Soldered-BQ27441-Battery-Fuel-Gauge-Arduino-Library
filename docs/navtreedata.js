@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "Soldered BQ27441-G1 Arduino Library", "index.html", [
-    [ "Fuel gauge BQ27441 breakout Arduino library", "index.html", null ],
+    [ "Fuel gauge BQ27441 breakout Arduino library", "index.html", [
+      [ "Have fun!", "index.html#autotoc_md8", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
