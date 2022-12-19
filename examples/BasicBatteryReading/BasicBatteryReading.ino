@@ -15,7 +15,7 @@
 #include "BQ27441-G1-SOLDERED.h"
 
 BQ27441 battery;
-const unsigned int BATTERY_CAPACITY = 1200; //Battery I tested had 1200 mAh
+const unsigned int BATTERY_CAPACITY = 1200; // Battery I tested had 1200 mAh
 
 void setup()
 {
@@ -28,8 +28,8 @@ void setup()
         // If communication fails, print an error message and loop forever.
         Serial.println("Error: Unable to communicate with BQ27441.");
         Serial.println("  Check wiring and try again.");
-        while(1)
-        delay(1);
+        while (1)
+            delay(1);
     }
     Serial.println("Connected to BQ27441!");
 
@@ -41,24 +41,24 @@ void setup()
 void loop()
 {
     // Read battery stats from the BQ27441-G1A
-  unsigned int soc = battery.soc();  // Read state-of-charge (%)
-  unsigned int volts = battery.voltage(); // Read battery voltage (mV)
-  int current = battery.current(AVG); // Read average current (mA)
-  unsigned int fullCapacity = battery.capacity(FULL); // Read full capacity (mAh)
-  unsigned int capacity = battery.capacity(REMAIN); // Read remaining capacity (mAh)
-  int power = battery.power(); // Read average power draw (mW)
-  int health = battery.soh(); // Read state-of-health (%)
+    unsigned int soc = battery.soc();                   // Read state-of-charge (%)
+    unsigned int volts = battery.voltage();             // Read battery voltage (mV)
+    int current = battery.current(AVG);                 // Read average current (mA)
+    unsigned int fullCapacity = battery.capacity(FULL); // Read full capacity (mAh)
+    unsigned int capacity = battery.capacity(REMAIN);   // Read remaining capacity (mAh)
+    int power = battery.power();                        // Read average power draw (mW)
+    int health = battery.soh();                         // Read state-of-health (%)
 
-  // Now print out those values:
-  String toPrint = String(soc) + "% | ";
-  toPrint += String(volts) + " mV | ";
-  toPrint += String(current) + " mA | ";
-  toPrint += String(capacity) + " / ";
-  toPrint += String(fullCapacity) + " mAh | ";
-  toPrint += String(power) + " mW | ";
-  toPrint += String(health) + "%";
-  
-  Serial.println(toPrint);
+    // Now print out those values:
+    String toPrint = String(soc) + "% | ";
+    toPrint += String(volts) + " mV | ";
+    toPrint += String(current) + " mA | ";
+    toPrint += String(capacity) + " / ";
+    toPrint += String(fullCapacity) + " mAh | ";
+    toPrint += String(power) + " mW | ";
+    toPrint += String(health) + "%";
 
-  delay(2000);
+    Serial.println(toPrint);
+
+    delay(2000);
 }

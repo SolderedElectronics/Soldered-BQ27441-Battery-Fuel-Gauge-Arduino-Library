@@ -6,7 +6,7 @@
 | :---------------------------------------------------------------------------------------------: |
 | [Fuel gauge BQ27441 breakout](https://www.solde.red/333065)                                                            |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC). 
+Fuel gauge BQ27441 breakout compliant to [easyC ecosystem](https://www.soldered.com/en/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -18,7 +18,7 @@ You can find hardware design for this board in [*Fuel gauge BQ27441 breakout*](h
 
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://solderedelectronics.github.io/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/).
 
 - Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
@@ -42,7 +42,7 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 
 ### Original source
 ​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle. 
+This library is possible thanks to original [SparkFun BQ27441-G1A LiPo Fuel Gauge](https://github.com/sparkfun/SparkFun_BQ27441_Arduino_Library) library. Thank you, SparkFun. 
 
 
 ### Open-source license
