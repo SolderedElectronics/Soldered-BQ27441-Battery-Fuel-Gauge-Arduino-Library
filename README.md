@@ -1,6 +1,8 @@
 # Fuel gauge BQ27441 breakout Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/actions/workflows/arduino_lint.yml)
+
 
 | ![Fuel gauge BQ27441 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------------: |
@@ -22,7 +24,7 @@ You can find hardware design for this board in [_Fuel gauge BQ27441 breakout_](h
 
 Access Arduino library documentation [here](https://solderedelectronics.github.io/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the Fuel gauge BQ27441 breakout board
 - Installing an Arduino library
 
 ### Board compatibility
@@ -33,7 +35,7 @@ The library is compatible with board & microcontroller families shown in green b
 
 ### About Soldered
 
-<img src="https://raw.githubusercontent.com/e-radionicacom/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
+<img src="https://raw.githubusercontent.com/e-radionicacom/Soldered-Generic-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
 
 At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
 
@@ -42,7 +44,6 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Community & Technical support](https://soldered.com/community)
 
 ### Original source
-
 ​
 This library is possible thanks to original [SparkFun BQ27441-G1A LiPo Fuel Gauge](https://github.com/sparkfun/SparkFun_BQ27441_Arduino_Library) library. Thank you, SparkFun.
 
