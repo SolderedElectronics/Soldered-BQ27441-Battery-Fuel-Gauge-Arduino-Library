@@ -5,23 +5,28 @@
  * @brief       Demonstrates how to use the BQ27441's BAT_LOW function on GPOUT. In this mode
  *              GPOUT will become active whenever the battery goes below a set threshold.
  *
- *              In addition to easyC, connect GPOUT to pin 2 of your Arduino.
+ *              To successfully run the sketch:
+ *              -Connect the battey to the breakout
+ *              -Conncect GPOUT to your Dasduino board (change it below, set to pin 2 by default)
+ *              -Connect the breakout to your Dasduino board with an easyC cable
+ *              -Open the Serial monitor at 115200 baud!
  *
- *              It is IMPORTANT to connect battery because this module gets power from battery
- *              and will not work without it!.
+ *              NOTE: It is IMPORTANT to connect the battery because this module gets power from battery
+ *              and will not work without it!
  *
- *              After uploading, open up the serial monitor to 115200 baud to view your
- *              battery's stats.
+ *              Fuel gauge BQ27441 breakout: solde.red/333065
+ *              Dasduino Core: www.solde.red/333037
+ *              Dasduino Connect: www.solde.red/333034
+ *              Dasduino ConnectPlus: www.solde.red/333033
  *
- *
- * @authors     SparkFun Electronics, Modified by Soldered.com
- * @link        www.solde.red/333065
+ * @authors     Robert Peric @ soldered.com
  ***************************************************/
 
+// Include the required library
 #include "BQ27441-G1-SOLDERED.h"
 
-// Set BATTERY_CAPACITY to the design capacity of your battery.
-const unsigned int BATTERY_CAPACITY = 1500; // e.g. 1500mAh battery
+// Set BATTERY_CAPACITY to the design capacity of your battery in mAh.
+const unsigned int BATTERY_CAPACITY = 600;
 
 const byte SOCI_SET = 15; // Interrupt set threshold at 15%
 const byte SOCI_CLR = 20; // Interrupt clear threshold at 20%
@@ -105,7 +110,10 @@ void printBatteryStats()
 
 void setup()
 {
+    // Init serial communication
     Serial.begin(115200);
+
+    // Do configuration defined by the previous functions
     setupBQ27441();
 }
 

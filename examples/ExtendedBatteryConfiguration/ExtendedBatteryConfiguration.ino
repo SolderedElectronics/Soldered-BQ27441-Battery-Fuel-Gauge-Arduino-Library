@@ -2,20 +2,29 @@
  **************************************************
  *
  * @file        ExtendedBatteryConfiguration.ino
- * @brief       This example is to show how BQ27441-G1 can be used for extended battery configuration
- *              It is IMPORTANT to connect battery because this module gets power from battery
+ * @brief       This example is to show how BQ27441-G1 can be used for extended battery configuration.
+ * 
+ *              To successfully run the sketch:
+ *              -Connect the battey to the breakout
+ *              -Connect the breakout to your Dasduino board with an easyC cable
+ *              -Open the Serial monitor at 115200 baud!
+ *              
+ *              NOTE: It is IMPORTANT to connect the battery because this module gets power from battery
  *              and will not work without it!
  *
+ *              Fuel gauge BQ27441 breakout: solde.red/333065
+ *              Dasduino Core: www.solde.red/333037
+ *              Dasduino Connect: www.solde.red/333034
+ *              Dasduino ConnectPlus: www.solde.red/333033
  *
- *
- * @authors     SparkFun, Modified by Soldered.com
- * @link        www.solde.red/333065
+ * @authors     Robert Peric @ soldered.com
  ***************************************************/
 
+// Include the required library
 #include "BQ27441-G1-SOLDERED.h"
 
 // Set BATTERY_CAPACITY to the design capacity of your battery in mAh.
-const uint16_t BATTERY_CAPACITY = 1500;
+const uint16_t BATTERY_CAPACITY = 600;
 
 // Lowest operational voltage in mV
 const uint16_t TERMINATE_VOLTAGE = 3000;
@@ -25,6 +34,7 @@ const uint16_t TAPER_CURRENT = 60;
 
 void setup()
 {
+    // Begin serial communication
     Serial.begin(115200);
 
     if (!lipo.begin()) // begin() will return true if communication is successful

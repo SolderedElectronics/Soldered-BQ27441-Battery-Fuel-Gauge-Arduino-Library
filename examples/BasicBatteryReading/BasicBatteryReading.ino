@@ -2,23 +2,36 @@
  **************************************************
  *
  * @file        BasicBatteryReading.ino
- * @brief       This example is to show how BQ27441-G1 can be used for basic battery readings
- *              It is IMPORTANT to connect battery because this module gets power from battery
+ * @brief       This example is to show how BQ27441-G1 can be used for basic battery readings.
+ * 
+ *              To successfully run the sketch:
+ *              -Connect the battey to the breakout
+ *              -Connect the breakout to your Dasduino board with an easyC cable
+ *              -Open the Serial monitor at 115200 baud!
+ *              
+ *              NOTE: It is IMPORTANT to connect the battery because this module gets power from battery
  *              and will not work without it!
  *
+ *              Fuel gauge BQ27441 breakout: solde.red/333065
+ *              Dasduino Core: www.solde.red/333037
+ *              Dasduino Connect: www.solde.red/333034
+ *              Dasduino ConnectPlus: www.solde.red/333033
  *
- *
- * @authors     @ soldered.com, Robert Peric
- * @link        www.solde.red/333065
+ * @authors     Robert Peric @ soldered.com
  ***************************************************/
 
+// Include Library
 #include "BQ27441-G1-SOLDERED.h"
 
+// Create fuel gauge object with the library
 BQ27441 battery;
-const unsigned int BATTERY_CAPACITY = 1200; // Battery I tested had 1200 mAh
+
+// Set BATTERY_CAPACITY to the design capacity of your battery in mAh.
+const unsigned int BATTERY_CAPACITY = 600;
 
 void setup()
 {
+    // Begin serial communication
     Serial.begin(115200);
 
     // Use battery.begin() to initialize the BQ27441-G1A and confirm that it's
@@ -60,5 +73,6 @@ void loop()
 
     Serial.println(toPrint);
 
+    // Wait a bit
     delay(2000);
 }
