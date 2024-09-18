@@ -6,7 +6,7 @@
 
 | ![Fuel gauge BQ27441 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------------: |
-|                      [Fuel gauge BQ27441 breakout](https://www.solde.red/333065)                      |
+|                      [Fuel gauge BQ27441 breakout](https://solde.red/333065)                      |
 
 Fuel gauge BQ27441 breakout compliant to [easyC ecosystem](https://www.soldered.com/en/easyC).
 
