@@ -7,9 +7,12 @@ var searchData=
   ['blockdataclass_4',['blockDataClass',['../class_b_q27441.html#a632f6ca382a8d373f12b6f9b39055620',1,'BQ27441']]],
   ['blockdatacontrol_5',['blockDataControl',['../class_b_q27441.html#a47e8d7c7280ac8f04a53bc60d928e54b',1,'BQ27441']]],
   ['blockdataoffset_6',['blockDataOffset',['../class_b_q27441.html#a73ee6f36bbc4091047ab58a861933625',1,'BQ27441']]],
-  ['bq27441_7',['BQ27441',['../class_b_q27441.html',1,'BQ27441'],['../class_b_q27441.html#af6e252e003c6349faf789a32c77f6af1',1,'BQ27441::BQ27441()']]],
-  ['bq27441_2dg1_2dsoldered_2ecpp_8',['BQ27441-G1-SOLDERED.cpp',['../_b_q27441-_g1-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['bq27441_2dg1_2dsoldered_2eh_9',['BQ27441-G1-SOLDERED.h',['../_b_q27441-_g1-_s_o_l_d_e_r_e_d_8h.html',1,'']]],
-  ['bq27441_5fdefinitions_2eh_10',['BQ27441_Definitions.h',['../_b_q27441___definitions_8h.html',1,'']]],
-  ['bq_5f27441_11',['BQ_27441',['../class_b_q__27441.html',1,'BQ_27441'],['../class_b_q__27441.html#a9e7b56b63f04e0ff0651876027ab9223',1,'BQ_27441::BQ_27441()']]]
+  ['board_20compatibility_7',['Board compatibility',['../index.html#autotoc_md4',1,'']]],
+  ['bq27441_8',['BQ27441',['../class_b_q27441.html',1,'BQ27441'],['../class_b_q27441.html#af6e252e003c6349faf789a32c77f6af1',1,'BQ27441::BQ27441()']]],
+  ['bq27441_20breakout_20arduino_20library_9',['Fuel gauge BQ27441 breakout Arduino library',['../index.html',1,'']]],
+  ['bq27441_2dg1_2dsoldered_2ecpp_10',['BQ27441-G1-SOLDERED.cpp',['../_b_q27441-_g1-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
+  ['bq27441_2dg1_2dsoldered_2eh_11',['BQ27441-G1-SOLDERED.h',['../_b_q27441-_g1-_s_o_l_d_e_r_e_d_8h.html',1,'']]],
+  ['bq27441_5fdefinitions_2eh_12',['BQ27441_Definitions.h',['../_b_q27441___definitions_8h.html',1,'']]],
+  ['bq_5f27441_13',['BQ_27441',['../class_b_q__27441.html',1,'BQ_27441'],['../class_b_q__27441.html#a9e7b56b63f04e0ff0651876027ab9223',1,'BQ_27441::BQ_27441()']]],
+  ['breakout_20arduino_20library_14',['Fuel gauge BQ27441 breakout Arduino library',['../index.html',1,'']]]
 ];

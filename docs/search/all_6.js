@@ -6,5 +6,6 @@ var searchData=
   ['fuel_20gauge_20bq27441_20breakout_20arduino_20library_3',['Fuel gauge BQ27441 breakout Arduino library',['../index.html',1,'']]],
   ['full_4',['FULL',['../_spark_fun_b_q27441_8h.html#ac13050dc6d06b0eb3ef60c25f0b97fb3ad08f8ac0aa8dfb59589824359772459e',1,'SparkFunBQ27441.h']]],
   ['full_5ff_5',['FULL_F',['../_spark_fun_b_q27441_8h.html#ac13050dc6d06b0eb3ef60c25f0b97fb3a2e4a702bf647b7d09a78d6a32fcce2c4',1,'SparkFunBQ27441.h']]],
-  ['full_5fuf_6',['FULL_UF',['../_spark_fun_b_q27441_8h.html#ac13050dc6d06b0eb3ef60c25f0b97fb3a8de4dd0793db7ed559bddfb05c8765a0',1,'SparkFunBQ27441.h']]]
+  ['full_5fuf_6',['FULL_UF',['../_spark_fun_b_q27441_8h.html#ac13050dc6d06b0eb3ef60c25f0b97fb3a8de4dd0793db7ed559bddfb05c8765a0',1,'SparkFunBQ27441.h']]],
+  ['fun_7',['Have fun!',['../index.html#autotoc_md8',1,'']]]
 ];
