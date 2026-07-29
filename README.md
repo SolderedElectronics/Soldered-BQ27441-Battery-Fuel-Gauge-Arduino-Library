@@ -4,7 +4,7 @@
 [![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library/actions/workflows/arduino_lint.yml)
 
 
-| ![Fuel gauge BQ27441 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Fuel gauge BQ27441 breakout](https://soldered.com/cdn/shop/files/333065_featured-photo_3281b7_054c1116-bd91-4726-afd2-7f7400f911d8.jpg) |
 | :---------------------------------------------------------------------------------------------------: |
 |                      [Fuel gauge BQ27441 breakout](https://solde.red/333065)                      |
 
